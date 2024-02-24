@@ -1,0 +1,60 @@
+/* canva.css */
+
+/* Reset default margin and padding */
+body, h1, form {
+    margin: 0;
+    padding: 0;
+}
+
+/* Center the form */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+/* Style the form header */
+h1 {
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Style form input fields */
+div {
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+
+
+/* Style the canvas */
+canvas {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+/* Style the buttons */
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: green;
+    color: #fff;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
