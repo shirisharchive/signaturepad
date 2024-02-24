@@ -1,0 +1,19 @@
+Overall plan is to make a signature pad with color changing features.
+You can sign in pad once clicking is done.
+And wherever the you direct the mouse your signature is done in that way.
+
+All is features are achieved by usig the mouse events: click-> StartDrawing
+        mousemove->StartDrawing
+        mouseup and mouseout ->stops the drawing.
+
+
+Today I come to know about the events i.e touchstart,touchmove and touch end whichare events i.e trigerred whenever the user touches the screen.
+
+touchstart->draw in canvas whenever the touch is detected.
+touchmove-> events occurs in the direction where the user drives their finger.
+
+touchend-> this detects the finger is still in pad or not.
+
+I got them and their features. I will modify my code to implement these features.
+
+control+Shift+L is used to change the selected item is vs code.
