@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../css/canva.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signature Pad</title>
+</head>
+<body>
+    <h1>Thankyou DivByDiv</h1>
+    <form  action="#" class="form" id="form">
+        <h1>Signuature Pad</h1>
+
+        <!-- <div>
+        <label>Name:</label>
+        <input type="text" name="name" id="name">
+        </div>
+
+        <div>
+            <label>Contact No:</label>
+            <input type="number" name="contact" id="contact">
+            </div> -->
+            <div id="color">
+                <label>Select the color you want:</label>
+               <input type="color" id="colorpicker"> 
+            </div>
+
+
+            <div>
+                <canvas id="signature" height="200" width="400"></canvas>
+                <label for="signature">Signature</label>
+            </div>
+            
+
+        <div>
+            <div>
+             <button id="clear" name="clear">Clear</button>
+            </div>
+
+        <div>
+            <button id="submit" name="submit">Submit</button>
+        </div>
+
+
+
+
+
+
+
+
+    </form>
+
+    <!-- Mero plan k ho bhanda signature chai yei html page mai dekhiyos -->
+
+    <div id="display" class="display">
+        <label>Your Signed Signature:</label>
+    </div>
+
+    <div>
+        <button id="download" name="download">Download Your Signature</button>
+    </div>
+    <script src="../js/canva.js"></script>
+</body>
+</html>
